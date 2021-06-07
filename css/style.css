@@ -8,6 +8,9 @@ header nav ul li {
     padding: 10px;
     margin-top: 25px;
 }
+header a{
+    text-decoration: none;
+}
 
 
 main h1 {
