@@ -18,18 +18,18 @@ if (clear === 'yes') { alert('Thats good!');
 
 let age = prompt('Are you 18 year old or above').toLowerCase();
 
+
 if (age === 'yes') {
-  alert('Nice!!');
-} else {alert('You are not allowed to access to this secret information');
+  alert('Nice!!'); console.log('yes');
+} else {alert('You are not allowed to access to this secret information'); console.log('no');
 }
-console.log('age');
 
 alert('Keep going, just 3 more questions! (:');
 
 let secrets = prompt('Can you keep secrets as a secrets').toLowerCase();
+console.log('secrets');
 
 if (secrets === 'yes') { alert('Nice ! I will trust you ');
-  console.log('secrets=yes');
 } else {
   alert('You need to know about discloses secrets disadvantage, ' + Name);
 }
