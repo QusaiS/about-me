@@ -8,11 +8,11 @@ alert('Okay, lets go');
 
 let Name = prompt('Type your name');
 alert('Hello ' + Name);
-console.log(Name);
+// console.log(Name);
 
 alert('Now just answer with yes or no okey  ' + Name + '?');
 let clear = prompt('Is it clear?').toLowerCase();
-if (clear === 'yes') { alert('Thats good!');
+if (clear === 'yes') { alert('Thats good!'); right++;// console.log(clear);
 } else {
   alert('You are not allowed to access to this secret information');
   // eslint-disable-next-line no-unused-vars
@@ -24,7 +24,7 @@ let age = prompt('Are you 18 year old or above').toLowerCase();
 
 
 if (age === 'yes') { right++;
-  alert('Nice!!'); console.log('yes');
+  // alert('Nice!!'); console.log('yes');
 } else {alert('You are not allowed to access to this secret information'); console.log('no');
 }
 
@@ -34,7 +34,7 @@ let secrets = prompt('Can you keep secrets as a secrets').toLowerCase();
 console.log('secrets');
 
 if (secrets === 'yes') { 
-  right++;
+  right++;// console.log(clear);
   alert('Nice ! I will trust you ');
 } else {
   alert('You need to know about discloses secrets disadvantage, ' + Name);
@@ -45,10 +45,10 @@ alert('Excelente, just 2 more questions! (:');
 let enjoy = prompt('Are you enjoying chating with me').toLowerCase();
 
 if (enjoy === 'yes') {
-  alert('great');} else {
+  alert('great');right++;// console.log(enjoy);} else {
   alert('You have to improve your interaction with people  ' + Name);
  // eslint-disable-next-line no-unused-vars
- right++;
+ 
 }
 
 alert('Excelente, last questions! (:');
@@ -56,7 +56,7 @@ alert('Excelente, last questions! (:');
 let donate = prompt('Did you accept to pay 9999$ for this secret information').toLowerCase();
 if (donate === 'yes'){
   alert('You can send the money using by Paypal')
-  right++;
+  right++;// console.log(clear);
 } else {
   alert('As you like you are the loser:`( ' + Name);
 }
@@ -68,7 +68,7 @@ for (let i = 0; i < 4; i++) {
 
   if (age === 23) {
     alert('Thats right(:) ');
-
+    right++;// console.log(age);
     break ;
 
   } else if (23>age){
@@ -88,12 +88,12 @@ let hobby =['swimming', 'Boxing', 'eating','fighting','sleeping'];
 for(let b =0; b<6;b++){
   let hobby1 = prompt('Guess my hobby').toLowerCase();
   if (hobby1 === hobby[0] || hobby1 === hobby[1] || hobby1 ===hobby[2] ||hobby1 ===hobby[3] ||hobby1 ===hobby[4] ||hobby1 ===hobby[5] ){
+    right++;// console.log(hobby1);
     // eslint-disable-next-line no-unused-vars
 
     break;
   } else (hobby1 !== hobby[0] || hobby1 !==hobby[1] || hobby1 !== hobby[2] || hobby1 !== hobby[3] || hobby1 !== hobby[4] || hobby1 !== hobby[5] );{
     alert(' hint :choose between: Swimming, eating, dancing, reading, racing');}
-
 
 }
 
