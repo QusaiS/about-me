@@ -30,6 +30,10 @@ main section h2 {
     background-color: bisque;
 }
 
+main ol li {
+list-style: decimal;
+margin-left: 25px;
+}
 
 
 main p {
