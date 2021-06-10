@@ -1,4 +1,7 @@
+body {
+background-color:  #ecddab;
 
+}
 header nav {
 float: right;
 }
@@ -11,7 +14,7 @@ header nav ul li {
 header a{
     text-decoration: none;
 }
-
+[]
 
 main h1 {
     
@@ -27,7 +30,7 @@ main h3 {
 main section h2 {
     color: #000;
     text-align: center;
-    background-color: bisque;
+    background-color: rgba(197, 158, 86, 0.836);
 }
 
 main ol li {
@@ -55,5 +58,5 @@ main {
 footer {
     color: #000;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: rgb(233, 202, 157);
 }
