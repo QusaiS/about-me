@@ -7,48 +7,106 @@ let Name = prompt('Type your name');
 alert('Hello ' + Name);
 console.log(Name);
 
-alert('Now just answer with yes or no okey  ' + Name + '?');
-let clear = prompt('Is it clear?').toLowerCase();
-if (clear === 'yes') { alert('Thats good!');
-} else {
-  alert('You are not allowed to access to this secret information');
+//Start Question
 
-}
+// alert('Now just answer with yes or no okey  ' + Name + '?');
+// let clear = prompt('Is it clear?').toLowerCase();
+// if (clear === 'yes') { alert('Thats good!');
+// } else {
+//   alert('You are not allowed to access to this secret information');
+
+// }
 
 
-let age = prompt('Are you 18 year old or above').toLowerCase();
+// let age = prompt('Are you 18 year old or above').toLowerCase();
 
 
-if (age === 'yes') {
-  alert('Nice!!'); console.log('yes');
-} else {alert('You are not allowed to access to this secret information'); console.log('no');
-}
+// if (age === 'yes') {
+//   alert('Nice!!'); console.log('yes');
+// } else {alert('You are not allowed to access to this secret information'); console.log('no');
+// }
 
-alert('Keep going, just 3 more questions! (:');
+// alert('Keep going, just 3 more questions! (:');
 
-let secrets = prompt('Can you keep secrets as a secrets').toLowerCase();
-console.log('secrets');
+// let secrets = prompt('Can you keep secrets as a secrets').toLowerCase();
+// console.log('secrets');
 
-if (secrets === 'yes') { alert('Nice ! I will trust you ');
-} else {
-  alert('You need to know about discloses secrets disadvantage, ' + Name);
-}
+// if (secrets === 'yes') { alert('Nice ! I will trust you ');
+// } else {
+//   alert('You need to know about discloses secrets disadvantage, ' + Name);
+// }
 
-alert('Excelente, just 2 more questions! (:');
+// alert('Excelente, just 2 more questions! (:');
 
-let enjoy = prompt('Are you enjoying chating with me').toLowerCase();
+// let enjoy = prompt('Are you enjoying chating with me').toLowerCase();
 
-if (enjoy === 'yes') {
-  alert('great');} else {
-  alert('You have to improve your interaction with people  ' + Name);
+// if (enjoy === 'yes') {
+//   alert('great');} else {
+//   alert('You have to improve your interaction with people  ' + Name);
 
-}
+// }
 
-alert('Excelente, last questions! (:');
+// alert('Excelente, last questions! (:');
 
-let donate = prompt('Did you accept to pay 9999$ for this secret information').toLowerCase();
-if (donate === 'yes'){
-  alert('You can send the money using by Paypal');
-} else {
-  alert('As you like you are the loser:`( ' + Name);
-}
+// let donate = prompt('Did you accept to pay 9999$ for this secret information').toLowerCase();
+// if (donate === 'yes'){
+//   alert('You can send the money using by Paypal');
+// } else {
+//   alert('As you like you are the loser:`( ' + Name);
+// }
+// let clear = prompt('Is it clear?').toLowerCase();
+// if (clear === 'yes') { alert('Thats good!'); right++;// console.log(clear);
+// } else {
+//   alert('You are not allowed to access to this secret information');
+//   // eslint-disable-next-line no-unused-vars
+//   right++;
+// }
+
+
+// let age = prompt('Are you 18 year old or above').toLowerCase();
+
+
+// if (age === 'yes') { right++;
+//   // alert('Nice!!'); console.log('yes');
+// } else {alert('You are not allowed to access to this secret information'); console.log('no');
+// }
+
+// alert('Keep going, just 3 more questions! (:');
+
+// let secrets = prompt('Can you keep secrets as a secrets').toLowerCase();
+// console.log('secrets');
+
+// if (secrets === 'yes') { 
+//   right++;// console.log(clear);
+//   alert('Nice ! I will trust you ');
+// } else {
+//   alert('You need to know about discloses secrets disadvantage, ' + Name);
+// }
+
+// alert('Excelente, just 2 more questions! (:');
+
+// let enjoy = prompt('Are you enjoying chating with me').toLowerCase();
+
+// if (enjoy === 'yes') {
+//   alert('great');right++;// console.log(enjoy);} else {
+//   alert('You have to improve your interaction with people  ' + Name);
+//  // eslint-disable-next-line no-unused-vars
+ 
+// }
+
+// alert('Excelente, last questions! (:');
+
+// let donate = prompt('Did you accept to pay 9999$ for this secret information').toLowerCase();
+// if (donate === 'yes'){
+//   alert('You can send the money using by Paypal')
+//   right++;// console.log(clear);
+// } else {
+//   alert('As you like you are the loser:`( ' + Name);
+// }
+
+
+
+
+
+
+
