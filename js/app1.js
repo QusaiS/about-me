@@ -9,16 +9,16 @@ alert('Okay, lets go');
 let Name = prompt('Type your name');
 alert('Hello ' + Name);
 // console.log(Name);
-alert("Pleas Answer With Yes ,No , y ,n");
+alert('Pleas Answer With Yes ,No , y ,n');
 function qus(quest, correctAns, uncorrescAns) {
   let myprompt;
 
   do {
-    
-    myprompt = prompt(quest).toLowerCase();
-  } while (myprompt !== "yes" && myprompt !== "y" && myprompt !== "no" && myprompt !== "n");
 
-  if (myprompt === "yes" || myprompt === "y") {
+    myprompt = prompt(quest).toLowerCase();
+  } while (myprompt !== 'yes' && myprompt !== 'y' && myprompt !== 'no' && myprompt !== 'n');
+
+  if (myprompt === 'yes' || myprompt === 'y') {
     alert(correctAns);
   } else {
     alert(uncorrescAns);
@@ -35,29 +35,36 @@ qus('Did you accept to pay 9999$ for this secret information', 'You Have A Corre
 
 
 
-for (let i = 0; i < 4; i++) {
-  let age1 = prompt('can you giss my age its betwwen 20 and 30 ?');
-  let age = Number(age1);
 
-  if (age === 23) {
-    alert('Thats right(:) ');
-    right++;// console.log(age);
-    break;
+function noon1 ()
+{
+  for (let i = 0; i < 4; i++) {
+    let age1 = prompt('can you giss my age its betwwen 20 and 30 ?');
+    let age = Number(age1);
 
-  } else if (23 > age) {
-    alert('hot ');
+    if (age === 23) {
+      alert('Thats right(:) ');
+      right++;// console.log(age);
+      break;
 
-  } else if (23 < age) {
-    alert('cold ');
+    } else if (23 > age) {
+      alert('hot ');
 
-  } else {
-    alert('I told you my age between 20 and 30');
+    } else if (23 < age) {
+      alert('cold ');
 
+    } else {
+      alert('I told you my age between 20 and 30');
+
+    }
   }
+
 }
 
+noon1();
 
 
+function noon2 ()
 let hobby = ['swimming', 'Boxing', 'eating', 'fighting', 'sleeping'];
 for (let b = 0; b < 6; b++) {
   let hobby1 = prompt('Guess my hobby').toLowerCase();
@@ -72,4 +79,10 @@ for (let b = 0; b < 6; b++) {
 
 }
 
-alert('your score is ' + right + ' from 7')
+alert('your score is ' + right + ' from 7');
+
+noon2();
+
+
+
+
